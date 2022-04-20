@@ -18,7 +18,7 @@ services:
 
   adminer:
     image: adminer
-    uid: 302430d1-9ef5-499b-a8ce-a255905355e2
+    uid: "302430d1-9ef5-499b-a8ce-a255905355e2"
     restart: always
     ports:
       - 8080:8080
