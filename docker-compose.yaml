@@ -5,8 +5,6 @@ services:
 
   mariadb:
     image: mariadb:10.2
-    namespace: "koudom300003751175-intel"
-    uid: "302430d1-9ef5-499b-a8ce-a255905355e2"
     environment:
       MYSQL_ROOT_PASSWORD: changeme
       MYSQL_DATABASE: mybb
