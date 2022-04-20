@@ -18,8 +18,6 @@ services:
 
   adminer:
     image: adminer
-    namespace: "koudom300003751175-intel"
-    uid: "302430d1-9ef5-499b-a8ce-a255905355e2"
     restart: always
     ports:
       - 8080:8080
